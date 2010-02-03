@@ -9,3 +9,8 @@ Depends on:
 - pyMongo
 - bottle (included)
 
+$ easy_install pymongo
+$ easy_install bottle (if you dont want to use the bundled version)
+$ python pasteme.py
+
+
