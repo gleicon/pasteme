@@ -1,0 +1,11 @@
+This is a paste[bin/.ca/etc] clone to test Bottle and MongoDB.
+
+Run with python pasteme.py, point your browser to localhost:8080/
+
+
+Depends on:
+
+- MongoDB
+- pyMongo
+- bottle (included)
+

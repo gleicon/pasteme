@@ -1,0 +1,218 @@
+body {
+	background: #ccc;
+	font-family: Georgia;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+p.note {
+    background: #99a;
+    padding: 12px;
+    color: #ddd;
+}
+
+p.note a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+p.note a:hover {
+    background: #666;
+}
+
+p.topnote {
+    background: #99a;
+    padding: 6px 15px;
+    color: #ddd;
+    margin-top: 0;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+p.topnote a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+p.topnote a:hover {
+    background: #666;
+}
+
+p.error { 
+    background: #fff;
+    border: 1px solid #d55; 
+    padding: 20px;
+}
+
+#content {
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+div#footer { 
+    background: #666;
+    clear: both;
+    width: 95%;
+    padding: 20px;
+    color: #eee;
+}
+ 
+div#footer a { 
+ color: #fff;
+ }
+
+#topbar h1 {
+    font-size: 1.25em;
+	font-weight: normal;
+	color: #ccc;
+	padding: 5px;
+	margin-left: 10px;
+	background: none;
+	float: left;
+}
+
+em {
+    font-style: normal;
+    color: #fff;
+}
+
+p.action a {
+	color: #333;
+	text-decoration: none;
+}
+
+p.action a:hover {
+	text-decoration: underline;
+}
+
+#topbar {
+	background: #444;
+	color: #ddd;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+label { font-size: 1em; color: #555; }
+
+#submit { font-size: 1.25em; }
+
+textarea { width: 52em; height: 24em; }
+
+form td { padding: 5px; }
+
+#bug {
+    position: fixed; 
+    right: 5px; 
+    bottom: 5px; 
+    z-index: 32767;
+    background: #445;
+    padding: 4px;
+    font-size: 75%;
+    opacity: 0.5;
+}
+
+#bug a {
+    color: #ccc;
+}
+
+#leftbug {
+    position: fixed; 
+    left: 5px; 
+    bottom: 5px; 
+    z-index: 32767;
+    background: #445;
+    padding: 4px;
+    font-size: 75%;
+    opacity: 0.8;
+}
+
+#leftbug a {
+    color: #ccc;
+}
+
+td.linenos { 
+    padding: 0 5px; 
+    color: #999; 
+    background: #eee;
+    }
+
+.linenos .special { 
+    font-weight: bold; color: #444;
+    }
+
+td.code {
+    padding: 0 8px;
+}
+
+td.code .highlight {
+    padding: 3px 10px;
+    margin: 0;
+}
+
+pre {
+    font-family: "Bitstream Vera Sans Mono", "Courier New", Monaco, monospace;
+    font-size: 90%;
+    }
+
+div.controlbar {
+    font-size: 75%;
+    padding: 6px 15px;
+    margin: 0;
+    background: #666;
+    color: #ccc;
+    clear: both;
+    height: 16px;
+    text-align: right;
+}
+
+.language {
+    float: left;
+}
+
+.controls {
+    float: right;
+}
+
+.controls a {
+    color: #fff;
+}
+
+#headercontrols h1 {
+    float: right;
+    font-size: 125%;
+    padding: 5px;
+    margin-right: 30px;
+}
+
+#headercontrols h1 a {
+    color: #fff;
+}
+
+#about a:hover {  color: #000; }
+#about a {  border-bottom: 1px dotted #666; } 
+#about {  color: #333; }
+
+.commentinfo {
+    color: #ff9;
+}
+
+.commentinfo a {
+    color: #ff9 !important;
+    font-weight: bold;
+}
+
+div.comment_item {
+    padding: 4px 0 6px 15px;
+}
+
