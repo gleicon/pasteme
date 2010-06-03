@@ -10,7 +10,7 @@
  
 <body onload=''> 
 <div id='topbar'> 
-    <h1 style="float: left">|Bottle|Redis|Python|pasteme|</h1> 
+    <h1 style="float: left">|Bottle|MongoDB|Python|pasteme|</h1> 
 </div> 
 
 <div id='content'> 
@@ -25,6 +25,7 @@
 <input type='submit' name='Paste me'> | | <input type='reset'>
 </form>
 </div> 
+<p><a href='/'>Paste again</a></p>
 <div id='footer'> 
         (c) gleicon 2010  | html template inspired by http://dpaste.com/about/ 
 </div> 
