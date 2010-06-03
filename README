@@ -8,6 +8,7 @@ Depends on:
 - MongoDB
 - pyMongo
 - bottle (included)
+- pygments
 
 $ easy_install pymongo
 $ easy_install bottle (if you dont want to use the bundled version)
